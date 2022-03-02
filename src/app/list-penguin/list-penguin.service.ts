@@ -13,6 +13,7 @@ export class ListPenguinService {
   constructor(private httpClient: HttpClient) {}
 
   getAllPenguins() {
+    /** 
     let arrayRow: penguin[] = [];
     let ArrayPenguins: any = new Array();
     let count = 0;
@@ -29,9 +30,7 @@ export class ListPenguinService {
           count = 0;
         }
       });
-    });
-    console.log(ArrayPenguins);
-    console.log(JSON.stringify(ArrayPenguins));
+    }); **/
     return (this.penguinList = this.httpClient.get('assets/PENGUIN.JSON'));
   }
 }
