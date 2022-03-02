@@ -69,6 +69,8 @@
   flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
+  width: 500px;
+  background-image: url("../../assets/roadmap.png");
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
