@@ -1,0 +1,59 @@
+<div class="box">
+  <div class="header">
+    <p class="headerText">The Penguin NFT</p>
+  </div>
+  <ul>
+    <li>
+      <p>
+        The Penguins NFT is a programmatically generated 1/1 - both exists in
+        the collection.
+      </p>
+    </li>
+    <li>
+      <p>
+        The proyect will add some rarity spects to penguins increasing rarity
+      </p>
+    </li>
+    <li>
+      <p>
+        All owners will have premium access to new events will be prepare for
+        the community
+      </p>
+    </li>
+    <li>
+      <p>
+        All the support received will be duly appreciated, each NFT in the
+        collection will be rewarded with totally free new NFTs from the
+        collection and new future collections.
+      </p>
+    </li>
+  </ul>
+
+  <div class="header"><p class="headerText">RoadMap</p></div>
+
+  <div class="roadmap"><img src="../../assets/roadmap.png" width="500" /></div>
+  <div class="header"><p class="headerText">The Collection</p></div>
+
+  <cdk-virtual-scroll-viewport itemSize="50" class="viewport">
+    <div
+      *cdkVirtualFor="let penguins of penguinList"
+      itemSize="1"
+      class="itemRow"
+    >
+      <div *ngFor="let penguin of penguins" class="item">
+        <app-image-penguin [penguin]="penguin"></app-image-penguin>
+      </div>
+    </div>
+  </cdk-virtual-scroll-viewport>
+
+  <div class="footer">
+    <a href="https://opensea.io/collection/penguin-party-club/"
+      ><div class="opensea"></div
+    ></a>
+    <a href="https://www.instagram.com/thepenguinsnft/"
+      ><div class="instagram"></div
+    ></a>
+    <a href="https://www.muse.place/thepenguinsnft"><div class="muse"></div></a>
+  </div>
+  <div class="header"></div>
+</div>
