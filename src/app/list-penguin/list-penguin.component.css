@@ -69,16 +69,18 @@
   flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
-  width: 500px;
+  width: 562px;
   background-image: url("../../assets/roadmap.png");
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  height: 1125px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
 }
 
 img {
-  -webkit-box-shadow: 5px 5px 15px 5px #000000;
-  box-shadow: 5px 5px 15px 5px #000000;
+
 }
 .opensea {
   margin: 5px;
