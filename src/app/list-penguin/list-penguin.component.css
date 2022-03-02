@@ -21,6 +21,8 @@
 .headerText {
   padding: 5px;
   margin: 0px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
 }
 .viewport {
   margin: auto;
@@ -31,6 +33,7 @@
   background-color: #3f2c6b;
   text-align: center;
 }
+
 .viewport::-webkit-scrollbar {
   display: none;
 }
@@ -57,6 +60,8 @@
   border-top: 8px solid #1d1236;
   border-bottom: 8px solid #1d1236;
   -webkit-text-stroke: 2px black;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
   /*background: 5px solid  rgba(7, 196, 253, 0.404); */
 }
 .roadmap {
@@ -67,6 +72,11 @@
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+img {
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
 }
 .opensea {
   margin: 5px;
