@@ -75,13 +75,10 @@
   margin-top: 20px;
   margin-bottom: 20px;
   height: 1125px;
-    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
   box-shadow: 5px 5px 15px 5px #000000;
 }
 
-img {
-
-}
 .opensea {
   margin: 5px;
   width: 130px;
