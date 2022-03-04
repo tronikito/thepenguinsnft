@@ -13,13 +13,12 @@
   /*background: 5px solid  rgba(7, 196, 253, 0.404); */
 }
 .headerText {
-  margin-left: 25px;
   font-size: 60px;
   color: #ffeeae;
   font-weight: 700;
 }
 .headerText {
-  padding: 5px;
+  padding-left: 65px;
   margin: 0px;
   -webkit-box-shadow: 5px 5px 15px 5px #000000;
   box-shadow: 5px 5px 15px 5px #000000;
@@ -104,4 +103,13 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url("../../assets/muse.png");
+}
+
+.nftcalendar {
+  width: 300px;
+  height: 225px;
+  margin-bottom: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/nftcalendar-logo.png");
 }
