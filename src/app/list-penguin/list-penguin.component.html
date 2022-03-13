@@ -1,8 +1,8 @@
 <div class="box">
-  <div class="header">
+  <div class="header-1">
     <p class="headerText">The Penguin NFT</p>
   </div>
-  <div style="padding-left: 45px">
+  <div class="item-1">
     <ul>
       <li>
         <p>
@@ -30,13 +30,13 @@
       </li>
     </ul>
   </div>
-  <div class="header"><p class="headerText">RoadMap</p></div>
 
-  <div class="roadmap"></div>
+  <div class="header-2"><p class="headerText">RoadMap</p></div>
 
-  <div class="header"><p class="headerText">The Collection</p></div>
+  <div class="item-2"></div>
+  <div class="header-3"><p class="headerText">The Collection</p></div>
 
-  <cdk-virtual-scroll-viewport itemSize="50" class="viewport">
+  <cdk-virtual-scroll-viewport itemSize="50" class="item-3">
     <div
       *cdkVirtualFor="let penguins of penguinList"
       itemSize="1"
@@ -47,6 +47,13 @@
       </div>
     </div>
   </cdk-virtual-scroll-viewport>
+
+  <div class="item-4">
+    <h1>As Seen On:</h1>
+    <a href="https://www.thenftmeter.com/" target="_blank"
+      ><div class="nftmeter"></div
+    ></a>
+  </div>
 
   <div class="footer">
     <a href="https://opensea.io/collection/penguin-party-club/" target="_blank"
@@ -59,15 +66,4 @@
       ><div class="muse"></div
     ></a>
   </div>
-
-  <div class="header">
-    <div style="padding-left: 45px">
-      <h1>As Seen On:</h1>
-      <a href="https://www.thenftmeter.com/" target="_blank"
-        ><div class="nftmeter"></div
-      ></a>
-    </div>
-  </div>
-
-  <div class="header"></div>
 </div>
