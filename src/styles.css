@@ -16,7 +16,7 @@ body {
   height: 100%;
 }
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 .body {
@@ -45,6 +45,7 @@ p {
     text-align: center;
   }
   .cdk-virtual-scroll-viewport {
+    border-radius: 5px #1d1236;
     /**border: 8px solid #1d1236;**/
   }
 
